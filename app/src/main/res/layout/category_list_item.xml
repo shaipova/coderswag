@@ -17,13 +17,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/hatimage" />
+        tools:srcCompat="@drawable/hatimage"
+        android:contentDescription="@string/category_image" />
 
     <TextView
         android:id="@+id/categoryName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HATS"
+        android:text="@string/hats"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"

@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/infoImage"
+        android:contentDescription="@string/product_image"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -51,7 +52,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="32dp"
         android:gravity="center_horizontal"
-        android:text="Для самых классных разработчиц и разработчиков, чтобы их они всегда оставались на стиле! Это лучший подарок всем, кто шарит за код"
+        android:text="@string/product_info"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

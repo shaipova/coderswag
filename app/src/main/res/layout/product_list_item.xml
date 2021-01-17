@@ -20,7 +20,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hat1" />
+        app:srcCompat="@drawable/hat1"
+        android:contentDescription="@string/product_image" />
 
     <TextView
         android:id="@+id/productPrice"
